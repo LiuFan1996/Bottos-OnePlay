@@ -1,0 +1,53 @@
+html,.panel,.container{
+    color:whitesmoke;
+    background: #2B2B2B;
+    font-family: "微软雅黑";
+}
+.navbar{
+    border: none;
+    margin: 0;
+}
+.navbar>.container{
+    margin: 0;
+    background: #000000;
+}
+.panel-heading{
+    background: rgba(2,2,2,0.5);
+}
+label{
+    line-height: 34px;
+}
+.panel{
+    background: #313335;
+    margin-top:10px;
+    padding: 0;
+    box-shadow:inset 0px 0px 10px #222222 ,1px 1px 10px #2B2B2B;
+}
+hr{
+    border:1px solid rgba(0,0,0,0.2);
+}
+hr~p{
+    padding:16px 16px ;
+}
+input{
+    color: whitesmoke !important;
+    background: #45494A!important;
+    border:1px solid #646464 !important;
+}
+.input-group>span{
+    background: #313335;
+    border: none;
+}
+.input-group>input{
+    border-radius: 4px !important;
+}
+.navbar-header span{
+    cursor: pointer;
+}
+a{
+    padding: 0;
+    margin: 0;
+}
+img{
+
+}

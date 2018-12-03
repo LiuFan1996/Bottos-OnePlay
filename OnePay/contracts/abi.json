@@ -1,0 +1,41 @@
+{
+    "createonepay":{
+        "onepayId":{"type":"string"},
+        "count":{"type":"uint256"},
+        "winAddrInfo":{"type":"string"},
+        "cashpotInfo":{"type":"uint256"},
+        "price":{"type":"uint8"},
+      "players":{
+        "type":"array",
+        "playerId" : {"type":"string"},
+        "playerAddr" : {"type": "string"},
+        "betTime" : {"type" : "string"}
+      }
+    },
+    "getonepay" : {
+      "onepayId":{"type":"string"},
+      "count":{"type":"uint256"},
+      "winAddrInfo":{"type":"string"},
+      "cashpotInfo":{"type":"uint256"},
+      "price":{"type":"uint8"},
+      "players":{
+        "type":"array",
+        "playerId" : {"type":"string"},
+        "playerAddr" : {"type": "string"},
+        "betTime" : {"type" : "string"}
+      }
+    },
+  "pay" : {
+    "onepayId":{"type":"string"},
+    "count":{"type":"uint256"},
+    "winAddrInfo":{"type":"string"},
+    "cashpotInfo":{"type":"uint256"},
+    "price":{"type":"uint8"},
+    "players":{
+      "type":"array",
+      "playerId" : {"type":"string"},
+      "playerAddr" : {"type": "string"},
+      "betTime" : {"type" : "string"}
+    }
+  }
+}
